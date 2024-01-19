@@ -1,0 +1,1 @@
+# course_codmind_design_patterns
