@@ -1,1 +1,3 @@
-# course_codmind_design_patterns
+# Codmind Design Patterns Course
+## Creational
+### Factory method
