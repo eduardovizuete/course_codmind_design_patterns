@@ -2,3 +2,4 @@
 ## Creational
 ### Factory method
 ### Abstract factory
+### Singleton

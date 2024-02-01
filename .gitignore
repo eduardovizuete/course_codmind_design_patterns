@@ -24,3 +24,4 @@ hs_err_pid*
 
 creational/factory_method/target/
 /creational/abstract_factory/target/
+/creational/Singleton/target/
