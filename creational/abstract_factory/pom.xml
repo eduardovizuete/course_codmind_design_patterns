@@ -11,5 +11,5 @@
         <maven.compiler.target>17</maven.compiler.target>
         <exec.mainClass>design.patterns.creational.abstractfactory.AbstractFactory</exec.mainClass>
     </properties>
-    <name>AbstractFactory</name>
+    <name>abstract_factory</name>
 </project>

@@ -11,4 +11,5 @@
         <maven.compiler.target>21</maven.compiler.target>
         <exec.mainClass>design.patterns.creational.singleton.Singleton</exec.mainClass>
     </properties>
+    <name>singleton</name>
 </project>
