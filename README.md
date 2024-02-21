@@ -3,3 +3,6 @@
 ### Factory method
 ### Abstract factory
 ### Singleton
+## Structural
+### Adapter
+### Composite
