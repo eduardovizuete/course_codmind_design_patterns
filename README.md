@@ -6,3 +6,4 @@
 ## Structural
 ### Adapter
 ### Composite
+### Proxy
