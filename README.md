@@ -7,3 +7,4 @@
 ### Adapter
 ### Composite
 ### Proxy
+### Facade
