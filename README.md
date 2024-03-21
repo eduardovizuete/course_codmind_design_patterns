@@ -8,3 +8,5 @@
 ### Composite
 ### Proxy
 ### Facade
+## Behavioral
+### Command

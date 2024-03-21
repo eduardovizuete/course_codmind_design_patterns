@@ -30,3 +30,5 @@ creational/factory_method/target/
 /structural/composite/target/
 /structural/proxy/target/
 /structural/facade/target/
+/structural/command/target/
+/behavioral/command/target/
