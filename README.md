@@ -10,3 +10,4 @@
 ### Facade
 ## Behavioral
 ### Command
+### Observer
