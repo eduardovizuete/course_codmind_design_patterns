@@ -4,6 +4,7 @@
 ### Abstract factory
 ### Singleton
 ### Builder
+### Prototype
 ## Structural
 ### Adapter
 ### Composite
