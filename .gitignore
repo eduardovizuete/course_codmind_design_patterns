@@ -33,3 +33,4 @@ creational/factory_method/target/
 /structural/command/target/
 /behavioral/command/target/
 /behavioral/observer/target/
+/behavioral/strategy/target/
