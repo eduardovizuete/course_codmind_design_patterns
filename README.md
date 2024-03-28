@@ -5,6 +5,7 @@
 ### Singleton
 ### Builder
 ### Prototype
+### Object Pool
 ## Structural
 ### Adapter
 ### Composite

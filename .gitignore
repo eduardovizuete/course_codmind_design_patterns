@@ -36,3 +36,4 @@ creational/factory_method/target/
 /behavioral/strategy/target/
 /creational/builder/target/
 /creational/prototype/target/
+/creational/objectpool/target/
