@@ -40,3 +40,4 @@ creational/factory_method/target/
 /structural/bridge/target/
 /structural/decorator/target/
 /structural/flyweight/target/
+/behavioral/iterator/target/
