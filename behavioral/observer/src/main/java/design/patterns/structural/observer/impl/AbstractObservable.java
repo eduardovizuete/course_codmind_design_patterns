@@ -1,4 +1,4 @@
-package design.patterns.structural.observer;
+package design.patterns.structural.observer.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,9 +19,9 @@ public class AbstractObservable implements IObservable {
 
     @Override
     public void notityAllObserver(String command, Object source) {
-        for(IObserver observer : observers){
-            observer.notify(command, source);
-        }
+        observers.forEach(observer -> {
+            observer.notifyObserver(command, source);
+        });
     }
     
 }

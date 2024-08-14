@@ -1,4 +1,4 @@
-package design.patterns.structural.observer;
+package design.patterns.structural.observer.impl;
 
 public interface IObservable {
     

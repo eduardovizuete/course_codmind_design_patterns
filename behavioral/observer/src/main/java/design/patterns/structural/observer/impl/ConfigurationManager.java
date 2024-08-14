@@ -1,4 +1,4 @@
-package design.patterns.structural.observer;
+package design.patterns.structural.observer.impl;
 
 import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
@@ -7,7 +7,7 @@ public class ConfigurationManager extends AbstractObservable {
 
     private static ConfigurationManager configurationManager;
     
-    private SimpleDateFormat dateFormat;
+    private SimpleDateFormat defaultDateFormat;
     
     private NumberFormat moneyFormat;
     
@@ -20,13 +20,13 @@ public class ConfigurationManager extends AbstractObservable {
         return configurationManager;
     }
     
-    public SimpleDateFormat getDateFormat() {
-        return dateFormat;
+    public SimpleDateFormat getDefaultDateFormat() {
+        return defaultDateFormat;
     }
 
-    public void setDateFormat(SimpleDateFormat dateFormat) {
-        this.dateFormat = dateFormat;
-        super.notityAllObserver("dateFormat", this);
+    public void setDefaultDateFormat(SimpleDateFormat defaultDateFormat) {
+        this.defaultDateFormat = defaultDateFormat;
+        super.notityAllObserver("defaultDateFormat", this);
     }
 
     public NumberFormat getMoneyFormat() {

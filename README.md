@@ -50,12 +50,18 @@
 
 ### Command
 
-![pattern_behavioral_iterator 1](resources/images/pattern_beahavioral_command_01.png)
-![pattern_behavioral_iterator 1](resources/images/pattern_beahavioral_command_02.png)
-![pattern_behavioral_iterator 1](resources/images/pattern_beahavioral_command_03.png)
-![pattern_behavioral_iterator 1](resources/images/pattern_beahavioral_command_04.png)
+![pattern_behavioral_command 1](resources/images/pattern_behavioral_command_01.png)
+![pattern_behavioral_command 2](resources/images/pattern_behavioral_command_02.png)
+![pattern_behavioral_command 3](resources/images/pattern_behavioral_command_03.png)
+![pattern_behavioral_command 4](resources/images/pattern_behavioral_command_04.png)
 
 ### Observer
+
+![pattern_behavioral_observer 1](resources/images/pattern_behavioral_observer_01.png)
+![pattern_behavioral_observer 2](resources/images/pattern_behavioral_observer_02.png)
+![pattern_behavioral_observer 3](resources/images/pattern_behavioral_observer_03.png)
+![pattern_behavioral_observer 4](resources/images/pattern_behavioral_observer_04.png)
+![pattern_behavioral_observer 5](resources/images/pattern_behavioral_observer_05.png)
 
 ### Strategy
 
