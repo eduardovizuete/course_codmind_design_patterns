@@ -76,3 +76,10 @@
 ![pattern_behavioral_iterator 4](resources/images/pattern_behavioral_iterator_04.png)
 
 ![pattern_behavioral_iterator 4](resources/images/pattern_behavioral_iterator_05.png)
+
+### Templete Method
+
+![pattern_behavioral_template 1](resources/images/pattern_behavioral_template_01.png)
+![pattern_behavioral_template 2](resources/images/pattern_behavioral_template_02.png)
+![pattern_behavioral_template 3](resources/images/pattern_behavioral_template_03.png)
+![pattern_behavioral_template 4](resources/images/pattern_behavioral_template_04.png)
