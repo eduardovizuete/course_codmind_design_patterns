@@ -1,8 +1,8 @@
-package design.patterns.behavioral.command;
+package design.patterns.behavioral.command.impl;
 
 import java.io.OutputStream;
 
-public class CommandNotFound extends AbstractCommand {
+public class CommandNotFound extends BaseCommand {
     
     public static final String COMMAND_NAME = "Not_Found";
     

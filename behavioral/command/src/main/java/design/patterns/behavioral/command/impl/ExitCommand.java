@@ -1,9 +1,9 @@
-package design.patterns.behavioral.command;
+package design.patterns.behavioral.command.impl;
 
+import design.patterns.behavioral.command.ICommand;
 import java.io.OutputStream;
-import org.w3c.dom.views.AbstractView;
 
-public class ExitCommand extends AbstractCommand {
+public class ExitCommand implements ICommand {
 
     public static final String COMMAND_NAME = "exit";
     
@@ -14,10 +14,7 @@ public class ExitCommand extends AbstractCommand {
 
     @Override
     public void execute(String[] args, OutputStream out) {
-        write(out, "Saliendo de la linea de comandos ...");
         System.exit(0);
     }
-    
-    
     
 }

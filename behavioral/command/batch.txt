@@ -1,0 +1,7 @@
+date "dd/MM/yyyy hh:mm:ss"
+dir -n "dummy2"
+echo "Se creo el archivo dummy2"
+file -wn "dummy.txt" "Hola mundo con el comando file"
+memory
+file -r "dummy.txt" "dummy2.txt”
+date "dd/MM/yyyy hh:mm:ss"

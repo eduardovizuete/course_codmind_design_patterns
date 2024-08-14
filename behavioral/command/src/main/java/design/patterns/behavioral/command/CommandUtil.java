@@ -1,4 +1,4 @@
-package design.patterns.behavioral.command.util;
+package design.patterns.behavioral.command;
 
 import java.util.ArrayList;
 import java.util.List;

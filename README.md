@@ -50,6 +50,11 @@
 
 ### Command
 
+![pattern_behavioral_iterator 1](resources/images/pattern_beahavioral_command_01.png)
+![pattern_behavioral_iterator 1](resources/images/pattern_beahavioral_command_02.png)
+![pattern_behavioral_iterator 1](resources/images/pattern_beahavioral_command_03.png)
+![pattern_behavioral_iterator 1](resources/images/pattern_beahavioral_command_04.png)
+
 ### Observer
 
 ### Strategy

@@ -1,12 +1,13 @@
-package design.patterns.behavioral.command;
+package design.patterns.behavioral.command.impl;
 
+import design.patterns.behavioral.command.ICommand;
 import java.io.OutputStream;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public abstract class AbstractCommand implements ICommand {
+public abstract class BaseCommand implements ICommand {
     
-    private static final Logger logger = Logger.getLogger(AbstractCommand.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(BaseCommand.class.getName());
     
     @Override
     public abstract String getCommandName();
@@ -17,8 +18,9 @@ public abstract class AbstractCommand implements ICommand {
     public void write(OutputStream stream, String message){
         try {
             stream.write(message.getBytes());   
+            stream.flush();
         } catch (Exception ex) { 
-            logger.log(Level.SEVERE, null, ex);
+            LOGGER.log(Level.SEVERE, null, ex);
         }
     }
     

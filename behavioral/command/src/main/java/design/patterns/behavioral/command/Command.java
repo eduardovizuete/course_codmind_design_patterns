@@ -1,30 +1,29 @@
 package design.patterns.behavioral.command;
 
-import design.patterns.behavioral.command.util.CommandUtil;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Command {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        
-        CommandManager commandManger = CommandManager.getInstance();
-        
-        while(true){
-            String newLine = scanner.nextLine();
-            if(newLine.trim().isEmpty()){
+        System.out.println("Command Line is Start");
+        CommandManager manager = CommandManager.getInstance();
+
+        Scanner in = new Scanner(System.in);
+        while (true) {
+            String line = in.nextLine();
+            if (line.trim().length() == 0) {
                 continue;
             }
-            
-            String[] commandArgs = CommandUtil.tokenizerArgs(newLine);
-            String commandName = commandArgs[0];
-            String[] commandArgs2 = null;
-            if(commandArgs.length > 1){
-                commandArgs2 = Arrays.copyOfRange(commandArgs, 1, commandArgs.length);
+            String[] commands = CommandUtil.tokenizerArgs(line);
+            String commandName = commands[0];
+            String[] commandArgs = null;
+            if (commands.length > 1) {
+                commandArgs = Arrays.copyOfRange(commands, 1, commands.length);
             }
-            ICommand command = commandManger.getCommand(commandName);
-            command.execute(commandArgs2, System.out);
+            ICommand command = manager.getCommand(commandName);
+            command.execute(commandArgs, System.out);
+            System.out.println("");
         }
     }
     
