@@ -3,13 +3,13 @@ package design.patterns.behavioral.templatemethod.impl;
 import design.patterns.behavioral.templatemethod.util.OnMemoryDataBase;
 import java.io.File;
 
-public abstract class AbstractFileProcessTemplete {
+public abstract class AbstractFileProcessTemplate {
     
     protected File file;
     protected String logPath;
     protected String movePath;
 
-    public AbstractFileProcessTemplete(File file, String logPath, String movePath) {
+    public AbstractFileProcessTemplate(File file, String logPath, String movePath) {
         this.file = file;
         this.logPath = logPath;
         this.movePath = movePath;

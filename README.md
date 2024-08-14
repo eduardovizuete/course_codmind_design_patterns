@@ -77,7 +77,7 @@
 
 ![pattern_behavioral_iterator 4](resources/images/pattern_behavioral_iterator_05.png)
 
-### Templete Method
+### Template Method
 
 ![pattern_behavioral_template 1](resources/images/pattern_behavioral_template_01.png)
 ![pattern_behavioral_template 2](resources/images/pattern_behavioral_template_02.png)

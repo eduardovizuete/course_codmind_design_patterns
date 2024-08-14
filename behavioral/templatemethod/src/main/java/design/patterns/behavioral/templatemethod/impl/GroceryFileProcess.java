@@ -6,7 +6,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class GroceryFileProcess extends AbstractFileProcessTemplete {
+public class GroceryFileProcess extends AbstractFileProcessTemplate {
 
     private String log = "";
 

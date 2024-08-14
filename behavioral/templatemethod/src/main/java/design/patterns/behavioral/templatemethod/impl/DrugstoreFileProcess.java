@@ -6,7 +6,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class DrugstoreFileProcess extends AbstractFileProcessTemplete {
+public class DrugstoreFileProcess extends AbstractFileProcessTemplate {
 
     private String log = "";
 
