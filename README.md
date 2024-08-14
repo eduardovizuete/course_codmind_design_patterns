@@ -65,6 +65,11 @@
 
 ### Strategy
 
+![pattern_behavioral_stragegy 1](resources/images/pattern_behavioral_strategy_01.png)
+![pattern_behavioral_stragegy 2](resources/images/pattern_behavioral_strategy_02.png)
+![pattern_behavioral_stragegy 3](resources/images/pattern_behavioral_strategy_03.png)
+![pattern_behavioral_stragegy 4](resources/images/pattern_behavioral_strategy_04.png)
+
 ### Iterator
 
 ![pattern_behavioral_iterator 1](resources/images/pattern_behavioral_iterator_01.png)

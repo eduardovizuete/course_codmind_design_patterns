@@ -1,9 +1,10 @@
-package design.patterns.structural.strategy.util;
+package design.patterns.structural.strategy.impl.providers;
 
-import design.patterns.structural.strategy.impl.IAuthStrategy;
 import design.patterns.structural.strategy.impl.Principal;
+import design.patterns.structural.strategy.impl.IAuthenticationStrategy;
+import design.patterns.structural.strategy.util.XMLUserUtil;
 
-public class XMLAuthStrategy implements IAuthStrategy {
+public class XMLAuthenticationProvider implements IAuthenticationStrategy {
 
 
     @Override

@@ -1,5 +1,6 @@
 package design.patterns.structural.strategy.util;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 import java.util.logging.Level;
@@ -15,7 +16,7 @@ public class PropertiesUtil {
             InputStream inputStream = PropertiesUtil.class.getClassLoader().getResourceAsStream(propertiesURL);
             properties.load(inputStream);
             return properties;
-        } catch (Exception ex) {
+        } catch (IOException ex) {
             logger.log(Level.SEVERE, null, ex);
             return null;
         }
