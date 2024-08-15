@@ -42,3 +42,4 @@ creational/factory_method/target/
 /structural/flyweight/target/
 /behavioral/iterator/target/
 /behavioral/templatemethod/target/
+/behavioral/chainofresponsability/target/

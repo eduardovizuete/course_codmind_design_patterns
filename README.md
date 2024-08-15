@@ -88,3 +88,12 @@
 ![pattern_behavioral_template 2](resources/images/pattern_behavioral_template_02.png)
 ![pattern_behavioral_template 3](resources/images/pattern_behavioral_template_03.png)
 ![pattern_behavioral_template 4](resources/images/pattern_behavioral_template_04.png)
+
+### Chain of Responsability
+
+![pattern_behavioral_chainof 1](resources/images/pattern_behavioral_chainofresp_01.png)
+![pattern_behavioral_chainof 2](resources/images/pattern_behavioral_chainofresp_02.png)
+![pattern_behavioral_chainof 3](resources/images/pattern_behavioral_chainofresp_03.png)
+![pattern_behavioral_chainof 4](resources/images/pattern_behavioral_chainofresp_04.png)
+![pattern_behavioral_chainof 5](resources/images/pattern_behavioral_chainofresp_05.png)
+![pattern_behavioral_chainof 6](resources/images/pattern_behavioral_chainofresp_06.png)
