@@ -108,3 +108,12 @@ Git Hub repository for the course
 
 ![pattern_behavioral_interpreter 2](resources/images/pattern_behavioral_interpreter_02.png)
 ![pattern_behavioral_interpreter 3](resources/images/pattern_behavioral_interpreter_03.png)
+
+### Patrón Mediator
+
+![pattern_behavioral_mediator 1](resources/images/pattern_behavioral_mediator_01.png)
+![pattern_behavioral_mediator 2](resources/images/pattern_behavioral_mediator_02.png)
+![pattern_behavioral_mediator 3](resources/images/pattern_behavioral_mediator_03.png)
+![pattern_behavioral_mediator 4](resources/images/pattern_behavioral_mediator_04.png)
+![pattern_behavioral_mediator 5](resources/images/pattern_behavioral_mediator_05.png)
+![pattern_behavioral_mediator 6](resources/images/pattern_behavioral_mediator_06.png)
